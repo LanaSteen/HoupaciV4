@@ -1,0 +1,184 @@
+.mysection{
+    margin-top: 150px!important;
+    margin-bottom: 30px!important;
+ 
+  }
+
+  /* .myimg1{
+    background-image:url(src\assets\card1.jpg);
+    align-self: stretch!important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-sizing: border-box;
+    width: 100%;
+
+} */
+
+
+.mybtn{
+   
+    color: white;;
+}
+
+
+
+.pcardtitle{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+}
+
+.card{
+    width:100%;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.thumb{
+    display: block; 
+    width: 70px;
+   height: 50px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   }
+
+
+@media (max-width: 992px) {
+    .pcardtitle{
+        font-size: 35px;
+    }
+
+    .card{
+  
+        margin-bottom: 30px;
+        width:300px !important;
+        height: 200px !important;
+       
+    }
+    .thumb{
+        margin-top: 15px;
+        width: 60px;
+       height: 50px;
+       }
+
+       .mysection{
+        margin-top: 30px!important;
+        margin-bottom: 30px!important;
+      }
+      .galleria{
+               
+        border-radius: 3px;
+        width:300px !important;
+        height: 200px !important;
+      
+    }
+    .mytext{
+        margin-left: 0px;
+        }
+        .mycard{
+            margin-left: 20px;
+            width:300px !important;
+            height: 200px !important;
+        }
+        .template{
+            width: 300px !important; 
+            height: 200px !important;
+        }
+        .cardtitle{
+            font-size: 20px;
+         }
+         .cardtext{
+            font-size: 15px;
+         }
+        }
+
+    @media (max-width: 769px) {
+     .cardtitle{
+        font-size: 15px;
+     }
+     .cardtext{
+        font-size: 10px;
+     }
+        .mycard{
+            margin-left: 20px;
+            width:200px !important;
+            height: 150px !important;
+        }
+        .card{
+            width:200px !important;
+            /* height: 150px !important; */
+            margin-bottom: 30px;
+           
+        }
+        .thumb{
+            margin-top: 2px;
+            width: 40px;
+           height: 20px;
+           }
+           .mytext{
+            margin-left: 0px;
+            }
+
+            .mysection{
+                margin-top: 30px!important;
+                margin-bottom: 30px!important;
+              }
+              img{
+                border-radius: 0.5px;
+            }
+            .galleria{
+               
+                border-radius: 3px;
+                width:200px !important;
+                /* height: 150px !important; */
+              
+            }
+            .template{
+                width: 200px !important; 
+                /* height: 150px !important; */
+            }
+           
+    }
+    @media (max-width: 440px) {
+            /* .card2{
+                width: 200px !important; 
+                height: 150px !important;
+            } */
+
+            .card2{
+                margin-top: 80px !important;
+             
+         }
+    }
+   
+   .mytext{
+    margin-left: 30px;
+    }
+img{
+    border-radius: 3px;
+}
+
+.galleria{
+   background-color: rgba(109, 110, 110, 0.567);
+    border-radius: 10px;
+    width:400px;
+}
+.template{
+    width: 400px;  height: 250px; display: block;
+}
+.card2{
+    width:50%;
+}
+
+/* :hover.card{
+    background-color: #33313bc2;
+} */
+/* img { 
+    opacity: 0.8; 
+  } 
+  
+  img:hover { 
+    opacity: 1.2; 
+  } */

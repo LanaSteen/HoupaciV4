@@ -1,0 +1,27 @@
+.overlay{
+
+    position: absolute;
+}
+
+.overlay{
+    background-color: chartreuse; height: 702px; 
+            }
+.hero-wrap .overlay{
+/* position: absolute; */
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: .4;
+    background: #000;
+    background: #618fd0a9;
+    background: linear-gradient(
+45deg,#8beaefae 0%,#ff595993 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f88fc', endColorstr='#ff5959', GradientType=1 );
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 820px; 
+}

@@ -1,0 +1,47 @@
+
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+  
+
+
+.mybtn{
+    margin-left: 70px;
+    color: white;;
+}
+
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+align-content: space-around;
+
+    margin-bottom: 50px;
+    width:100%;
+  
+}
+
+.pcardtitle{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+}
+.cardstitle{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+.card{
+    width:350px;
+    margin-bottom: 30px;
+    display: inline-flex;
+    margin-left: 20px;
+}

@@ -1,0 +1,101 @@
+
+<div id="carouselExampleIndicators" class="carousel slide cards" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner " >
+      <div class="carousel-item active card">
+        
+            <div style="width:100%; height:100%; background-color: rgb(41, 43, 43); ">
+            <p-galleria [value]="images" [responsiveOptions]="responsiveOptions" [numVisible]="5" 
+            thumbnailsPosition="bottom" >
+                <ng-template pTemplate="item" let-item>
+                    <img [src]="item.previewImageSrc" style="width: 100%; height: 250px; object-fit: cover; display: block;"/>
+                </ng-template>
+            
+                <ng-template [thumbnailsPosition]="left" pTemplate="thumbnail" let-item  >
+                    <div class="grid grid-nogutter justify-content-center"  >
+                        <img [src]="item.thumbnailImageSrc" style="display: block; width: 60px; height: 40px; "/>
+                    </div>
+                </ng-template>
+            
+            </p-galleria>
+          </div>
+              <!-- <img class="card-img-top" src="assets\card1.jpg" alt="Card image cap"> -->
+              <div class="card-body">
+                <h5 class="card-title">Houpací #064</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="https://www.facebook.com/houpacii/photos/pb.100063777535498.-2207520000./560763642308151/?type=3" class="btn btn-warning mybtn">See More</a>
+              </div>
+      
+        <!-- <img class="d-block w-100" src="..." alt="First slide"> -->
+      </div>
+
+
+      <div class="carousel-item card">
+      
+            <div style="width:100%; height:100%; background-color: rgb(41, 43, 43); ">
+            <p-galleria [value]="images" [responsiveOptions]="responsiveOptions" [numVisible]="5" 
+            thumbnailsPosition="bottom" >
+                <ng-template pTemplate="item" let-item>
+                    <img [src]="item.previewImageSrc" style="width: 100%; height: 250px; object-fit: cover; display: block;"/>
+                </ng-template>
+            
+                <ng-template [thumbnailsPosition]="left" pTemplate="thumbnail" let-item  >
+                    <div class="grid grid-nogutter justify-content-center"  >
+                        <img [src]="item.thumbnailImageSrc" style="display: block; width: 60px; height: 40px; "/>
+                    </div>
+                </ng-template>
+            
+            </p-galleria>
+          </div>
+              <!-- <img class="card-img-top" src="assets\card1.jpg" alt="Card image cap"> -->
+              <div class="card-body">
+                <h5 class="card-title">Houpací #064</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="https://www.facebook.com/houpacii/photos/pb.100063777535498.-2207520000./560763642308151/?type=3" class="btn btn-warning mybtn">See More</a>
+              </div>
+      
+        <!-- <img class="d-block w-100" src="..." alt="Second slide"> -->
+      </div>
+
+
+      <div class="carousel-item card">
+       
+            <div style="width:100%; height:100%; background-color: rgb(41, 43, 43); ">
+            <p-galleria [value]="images" [responsiveOptions]="responsiveOptions" [numVisible]="5" 
+            thumbnailsPosition="bottom" >
+                <ng-template pTemplate="item" let-item>
+                    <img [src]="item.previewImageSrc" style="width: 100%; height: 250px; object-fit: cover; display: block;"/>
+                </ng-template>
+            
+                <ng-template [thumbnailsPosition]="left" pTemplate="thumbnail" let-item  >
+                    <div class="grid grid-nogutter justify-content-center"  >
+                        <img [src]="item.thumbnailImageSrc" style="display: block; width: 60px; height: 40px; "/>
+                    </div>
+                </ng-template>
+            
+            </p-galleria>
+          </div>
+              <!-- <img class="card-img-top" src="assets\card1.jpg" alt="Card image cap"> -->
+              <div class="card-body">
+                <h5 class="card-title">Houpací #064</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="https://www.facebook.com/houpacii/photos/pb.100063777535498.-2207520000./560763642308151/?type=3" class="btn btn-warning mybtn">See More</a>
+              </div>
+     
+        <!-- <img class="d-block w-100" src="..." alt="Third slide"> -->
+      </div>
+      
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
